@@ -698,9 +698,13 @@ footer ul li a{
     }
     nav {
         padding: 7px 20px;
+        top: 0;
     }
     .team{
         height: 60vh;
+    }
+    .act{
+        width: auto;
     }
 }
 @media(min-width:10px) and (max-width:300px) {
