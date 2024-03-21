@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: math;
+    box-sizing: border-box;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(3, 46, 3);
+    color: #fff;
+    z-index: 9999;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    background: #fff;
+    top: -2px;
+    left: 0;
+    z-index: 999;
+}
+
+.logo{
+    width: fit-content;
+    height: auto;
+}
+.logo a{
+    width: 100%;
+    height: 100%;
+}
+
+.logo img{
+    width: 200px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 3/4;
+}
+
+nav ul, .icons{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+nav ul li,.icons li{
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    list-style: none;
+}
+
+.icons li a i{
+    color: #fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    margin: 0 14px;
+}
+
+nav a:hover{
+    opacity: 0.6;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.menu:hover{
+    background: lightgray;
+}
+.menu h1{
+    font-weight: 600;
+}
+
+.mobile-menu{
+    width: 100%;
+    height: 0;
+    position: fixed;
+    display: none;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.5s;
+    transition: all 0.5s ease-in-out;
+    z-index: 999;
+}
+.mobile-menu ul{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+}
+
+.mobile-menu ul li {
+    /* background: orange; */
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+}
+
+
+.mobile-menu a{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.mobile-menu a:hover{
+    background: lightgrey;
+}
+
+.mobile-menu-height {
+    height: fit-content;
+    display: block;
+    border-radius: 25px 25px 0 0;
+}
+
+#product_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* border-bottom: 1px double lightgray; */
+}
+
+.store_items{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3,4fr); */
+    /* align-items: center;
+    justify-content: center; */
+    padding:15px 10%;
+    background: lavender;
+}
+
+.store_item{
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.store_item .image{
+    width: 100%;
+    height: 75%;
+}
+.store_item .image img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.store_item h3,.store_item p,.store_item span{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.store_item span{
+    color: green;
+}
+
+.store_item .add{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid lightgreen;
+    background: lightgreen;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+.add a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.advert{
+    width: 60%;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: orange;
+    align-items: center;
+    justify-content: center;
+}
+
+.advert h1{
+    color: white;
+}
+
+.advert p{
+    color: green;
+    text-align: center;
+}
+
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px #252525;
+}
+
+.whatsapp a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp i{
+    font-size: xx-large;
+}
+
+/* footer */
+footer{
+    background: rgba(1, 37, 1,0.8);
+
+}
+
+footer .icons{
+    margin: auto;
+}
+
+footer .f-logo{
+    text-align: center;
+    margin: 20px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.f-cont{
+    display: flex;
+    flex-direction: column;
+}
+.f-cont p{
+    color: #252525;
+}
+
+#title{
+    display: block;
+}
+.f-cont span{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* .f-cont i{
+    color: yellow;
+} */
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    color: #252525;
+    text-decoration: none;
+
+}
+
+@media(max-width:900px){
+    .banner span{
+        display: none;
+    }
+    .navlink{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .store_items{
+        width: 95%;
+        padding: 20px;
+    }
+    .advert{
+        width: 100%;
+    }
+    #product_title {
+        width: auto;
+    }
+    nav {
+        padding: 7px 20px;
+    }
+
+}
+
+@media(max-width:600px){
+    .store_item{
+        width: 80%;
+    }
+}
+
+@media(min-width:10px) and (max-width:300px) {
+    nav{
+        padding: 0;
+        height: 30px;
+    }
+    .logo h1{
+        font-size: small;
+    }
+    .mobile-menu a{
+        font-size: xx-small;
+    }
+    .mobile-menu ul li {
+        height: 13px;
+    }
+    #title{
+        font-size: medium;
+    }
+    .store_items{
+        padding: 20px 5px;
+    }
+    .store_item{
+        width: 96%;
+        height: fit-content;
+    }
+
+}

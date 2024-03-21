@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: math;
+    box-sizing: border-box;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(3, 46, 3);
+    color: #fff;
+    z-index: 9999;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    background: #fff;
+    top: -2px;
+    left: 0;
+    z-index: 999;
+}
+
+.logo{
+    width: fit-content;
+    height: auto;
+}
+.logo a{
+    width: 100%;
+    height: 100%;
+}
+
+.logo img{
+    width: 200px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 3/4;
+}
+
+nav ul, .icons{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+nav ul li,.icons li{
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    list-style: none;
+}
+
+.icons li a i{
+    color: #fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    margin: 0 14px;
+}
+
+nav a:hover{
+    opacity: 0.6;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.menu:hover{
+    background: lightgray;
+}
+.menu h1{
+    font-weight: 600;
+}
+
+.mobile-menu{
+    width: 100%;
+    height: 0;
+    position: fixed;
+    display: none;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.5s;
+    transition: all 0.5s ease-in-out;
+    z-index: 999;
+}
+.mobile-menu ul{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+}
+
+.mobile-menu ul li {
+    /* background: orange; */
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+}
+
+
+.mobile-menu a{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.mobile-menu a:hover{
+    background: lightgrey;
+}
+
+.mobile-menu-height {
+    height: fit-content;
+    display: block;
+    border-radius: 25px 25px 0 0;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    height: 35vh;
+    background-color: lightgray;
+}
+.image{
+    /* flex-basis: 50%; */
+    width: 100%;
+    height: 100%;
+    
+}
+.image img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+}
+.act{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:25px 15px;
+}
+
+.act h1 {
+    /* position: absolute; */
+    /* width: 100%;
+    height: fit-content;
+    text-align: center; */
+    /* margin: 6% auto; */
+    font-size: xxx-large;
+    -webkit-text-stroke: 1px #252525;
+    color: #252525;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    background: lightgray;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    gap: 15px;
+}
+
+.blog{
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-bottom: 12px;
+}
+
+.blog-image{
+    width: 100%;
+    height: 60%;
+    max-height: 400px;
+    overflow: hidden;
+}
+.blog-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog .text{
+    padding: 5px;
+}
+.text span{
+    font-size: xx-small;
+    color: rgb(17, 63, 2);
+    margin-right: 20px;
+    
+}
+
+.text a{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.pages{
+    background: lightgray;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    display: inline-block;
+}
+.pages a{
+    width: fit-content;
+    height: 40px;
+}
+
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px #252525;
+}
+
+.whatsapp a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp i{
+    font-size: xx-large;
+}
+
+footer{
+    background: rgba(1, 37, 1,0.8);
+
+}
+
+footer .icons{
+    margin: auto;
+}
+
+footer .f-logo{
+    text-align: center;
+    margin: 20px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.f-cont{
+    display: flex;
+    flex-direction: column;
+}
+.f-cont p{
+    color: #252525;
+}
+
+#title{
+    display: block;
+}
+.f-cont span{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* .f-cont i{
+    color: yellow;
+} */
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    color: #252525;
+    text-decoration: none;
+
+}
+
+ /* single blogs css */
+ .blog1{
+    width: 100%;
+    height: fit-content;
+ }
+.item{
+    width: 70%;
+    height: fit-content;
+    margin:30px auto;
+}
+ .image-l{
+    width: 80%;
+    height: 70vh;
+    margin: 20px auto;
+ }
+ .image-l img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio:3/4;
+ }
+
+@media(max-width:900px){
+    .banner span{
+        display: none;
+    }
+    .navlink{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+    .act h1{
+        font-size: medium;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(2,3fr);
+    }
+    /* blog-items */
+    .item{
+        width: 90%;
+    }
+    .image-l {
+        width: 100%;
+        height: 40vh;
+    }
+
+
+}
+@media(min-width:10px) and (max-width:300px) {
+    nav{
+        padding: 0;
+        height: 30px;
+    }
+    .logo h1{
+        font-size: small;
+    }
+    .mobile-menu a{
+        font-size: xx-small;
+    }
+    .mobile-menu ul li {
+        height: 13px;
+    }
+    #title{
+        font-size: medium;
+    }
+    .act{
+        margin:10px 0;
+    }
+    .blogs{
+        padding:20px 5px;
+    }
+
+}
+
+@media(max-width:500px){
+    .blogs{
+        grid-template-columns: auto;
+    }
+}
+
+
+
+
+
+
+ 
