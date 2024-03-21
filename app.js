@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         index=(index+1)%Slides.length;
         sliderNav(index);
     };
-    setInterval(nextSlide,5000)
+    setInterval(nextSlide,12000)
 });
 
 // lightbox
