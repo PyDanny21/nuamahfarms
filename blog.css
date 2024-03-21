@@ -373,7 +373,9 @@ footer ul li a{
         width: 100%;
         height: 40vh;
     }
-
+    nav {
+        padding: 7px 20px;
+    }
 
 }
 @media(min-width:10px) and (max-width:300px) {
