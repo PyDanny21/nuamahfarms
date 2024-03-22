@@ -271,7 +271,7 @@ nav a:hover{
 /* footer */
 footer{
     background: rgba(1, 37, 1,0.8);
-
+    color: #aaa;
 }
 
 footer .icons{

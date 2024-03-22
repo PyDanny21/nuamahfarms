@@ -148,7 +148,7 @@ nav a:hover{
 #gallery{
     width: 100%;
     /* text-align: center; */
-    margin:20px;
+    margin:20px 0;
     display: flex;
     justify-content: center;
 }
@@ -241,7 +241,7 @@ nav a:hover{
 
 footer{
     background: rgba(1, 37, 1,0.8);
-
+    color: #aaa;
 }
 
 footer .icons{

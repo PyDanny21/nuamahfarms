@@ -594,6 +594,7 @@ nav a:hover{
 /* footer */
 footer{
     background: rgba(1, 37, 1,0.8);
+    color: #aaa;
 
 }
 
@@ -649,6 +650,9 @@ footer ul li a{
 }
 
 @media(max-width:900px){
+    .heroText h1 {
+        font-size: 3rem;
+    }
     .banner span{
         display: none;
     }
@@ -703,9 +707,7 @@ footer ul li a{
     .team{
         height: 60vh;
     }
-    .act{
-        width: auto;
-    }
+
 }
 @media(min-width:10px) and (max-width:300px) {
     nav{
@@ -744,7 +746,7 @@ footer ul li a{
         text-align: center;
     }
     .team{
-        height: 40vh;
+        height: fit-content;
     }
     .act h1{
         font-size: xx-large;

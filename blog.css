@@ -173,7 +173,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:25px 15px;
+    margin:25px 0;
 }
 
 .act h1 {
@@ -271,6 +271,7 @@ nav a:hover{
 
 footer{
     background: rgba(1, 37, 1,0.8);
+    color: #aaa;
 
 }
 
