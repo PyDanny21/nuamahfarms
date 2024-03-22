@@ -306,6 +306,9 @@ footer ul li a{
     .menu{
         display: flex;
     }
+    nav {
+        padding: 7px 20px;
+    }
 
 }
 @media(min-width:10px) and (max-width:300px) {
