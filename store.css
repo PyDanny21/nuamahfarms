@@ -340,7 +340,7 @@ footer ul li a{
         padding: 20px;
     }
     .advert{
-        width: 100%;
+        width: 90%;
     }
     #product_title {
         width: auto;
@@ -360,7 +360,7 @@ footer ul li a{
 @media(min-width:10px) and (max-width:300px) {
     nav{
         padding: 0;
-        height: 30px;
+        height: fit-content;
     }
     .logo h1{
         font-size: small;
@@ -380,6 +380,26 @@ footer ul li a{
     .store_item{
         width: 96%;
         height: fit-content;
+    }
+    .call_to_action {
+        width: auto;
+    }
+    .call_to_action a {
+        margin: 8px 15px;
+
+    }
+    .slider {
+        left: 30%;
+        bottom: 25%;
+    }
+    .person {
+        width: auto;
+        height: fit-content;
+        margin: auto;
+    }
+    .person-picture {
+        width: 180px;
+        height: 180px;
     }
 
 }
