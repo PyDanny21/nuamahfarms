@@ -31,8 +31,8 @@ nav{
 }
 
 .logo{
-    width: fit-content;
-    height: auto;
+    width: 200px;
+    height: 60px;
 }
 .logo a{
     width: 100%;
@@ -40,8 +40,8 @@ nav{
 }
 
 .logo img{
-    width: 200px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-size: cover;
     aspect-ratio: 3/4;
@@ -336,7 +336,7 @@ nav a:hover{
 
 .presence{
     width: 80%;
-    height: 40vh;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(3,4fr);
     padding: 20px;
@@ -665,9 +665,6 @@ footer ul li a{
     .slider{
         left: 30%;
     }
-    nav{
-        padding: 20px;
-    }
     .presence {
         width: 90%;
         height: fit-content;
@@ -689,8 +686,11 @@ footer ul li a{
     .aim-text {
         margin-left: auto;
     }
-    .markets{
+    .markets {
         grid-template-columns: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .vid {
         width: 100%;
@@ -706,15 +706,34 @@ footer ul li a{
     .team{
         height: fit-content;
     }
+    .person{
+        width: auto;
+        margin: 0;
+    }
+    .person-picture{
+        width: 180px;
+        height: 180px;
+    }
+    .professionals{
+        justify-content: center;
+    }
+    .call_to_action{
+        width: fit-content;
+        height: fit-content;
+        margin:15px auto;
+        justify-content: center;
+    }
+    
+    .call_to_action a{
+        margin:8px 15px;
+    }
+
 
 }
 @media(min-width:10px) and (max-width:300px) {
     nav{
         padding: 0;
         height: 30px;
-    }
-    .logo h1{
-        font-size: small;
     }
     .mobile-menu a{
         font-size: xx-small;
@@ -734,7 +753,17 @@ footer ul li a{
         height: 6px;
         margin-right: 5px;
     }
-
+    .last{
+        flex-direction: column;
+    }
+    .logo{
+        width: 120px;
+        height: 50px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media(min-width:600px) and (max-width:900px) {
