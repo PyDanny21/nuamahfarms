@@ -173,8 +173,8 @@ nav a:hover{
 }
 
 .store_item{
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     background: #fff;
     margin: 10px;
     border-radius: 5px;
@@ -353,7 +353,7 @@ footer ul li a{
 
 @media(max-width:600px){
     .store_item{
-        width: 80%;
+        width:300px;
     }
 }
 
