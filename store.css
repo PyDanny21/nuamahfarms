@@ -184,10 +184,13 @@ nav a:hover{
 .store_item .image{
     width: 100%;
     height: 75%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .store_item .image img{
-    width: 100%;
-    height: 100%;
+    width: 240px;
+    height: 240px;
     background-size: cover;
 
 }
