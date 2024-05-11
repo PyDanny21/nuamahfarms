@@ -3,11 +3,395 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>NuamahFarms Blog - Stay Updated with Our Latest News and Insights</title>
+    <meta name="description" content="Explore the Nuamah Farms blog for insightful articles, recipes, and tips on organic farming, sustainable agriculture, and healthy living. Stay updated with our latest news and insights. Read more!" />
+    <link rel="stylesheet" href="activites.css">
+    <link rel="stylesheet" href="store.css">
+    <meta name="keywords" content="NuamahFarms, Tasty Zomi, organic palm oil, gallery, farm produce, agriculture, sustainable farming" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-    
+    <div class="banner">
+        <span><i class="fa fa-envelope" style="margin-right: 6px;color: yellow;"></i>nuamahfarm17@hotmail.com</span> |
+        <span><i class="fa fa-phone" style="margin-right: 6px;color: yellow;"></i>+233544757800</span> |
+        <div class="icons">
+            <li><a href="https://www.facebook.com/nuamahfarms17?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://wa.me/+233544757800"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://www.twitter.com/farmsnuamah"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/nuamahfarms"><i class="fa fa-instagram"></i></a></li>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/NUAMAH FARMS LOGO PNG PDF_240318_041936.png" alt="Nuamah Farms Logo">
+            </a>
+        </div>
+        <ul class="navlink">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Activities</a></li>
+            <li><a href="activities.html">Get Inspired</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+            <h1>&equiv;</h1>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Activities</a></li>
+            <li><a href="activities.html">Get Inspired</a></li>
+            <li><a href="contact.html" style="background: orangered;">Contact</a></li>
+        </ul>
+    </div>
+    <section class="container">
+        <h1 id="heading-tag">THE CONVERSATIONALISTS</h1>
+        <div class="tab-container">
+            <button class="tab-button-show" onclick="show()">
+                <i class="fa fa-filter"></i>
+            </button>
+            <button class="tab-button" onclick="All()">
+                <i class="fa fa-filter"></i>
+                <span id="unfilter">Filter</span>
+            </button>
+            <button class="tab-button" data-tabid="Social" onclick="openTab('Social')" id="hide">Social Issues</button>
+            <button class="tab-button" data-tabid="Reflections" onclick="openTab('Reflections')" id="hide">Reflections</button>
+            <button class="tab-button" data-tabid="Religion" onclick="openTab('Religion')" id="hide">Region/Preaching</button>
+            <button class="tab-button" data-tabid="Girl-child" onclick="openTab('Girl-child')" id="hide">Girl Child Empowerment</button>
+        </div>
+        <div class="hero">
+            <div class="hero-image">
+                <img src="images/pexels-chanita-sykes-1094544.jpg" alt="intriguing blog stories">
+            </div>
+            <div class="hero-text">
+                <div class="head">
+                    <h1>Empowering Tomorrow : The Importance of Girl Child Education</h1>
+                </div>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.lorem ,fbvwj wrhuwe ewuehrewh whsbfnweuf eurhwe enrwej4rhuw weurjew weuhefuyerfw efiwf ewiiewkjreoidf eirueurwi4 weir keieht irt eikhehrhewu i wehe ier ei qiw   ie qiherq ihuew jmntiejr uereikn jbq qu jw Commodi quisquam mollitia quo debitis dolorum ea impedit perferendis nesciunt alias facere. Vero ut veniam culpa animi ducimus consequuntur earum architecto. Dolorum!</p>
+                <br>
+                <div class="post-by">
+                    <div class="user-image">
+                        <img src="images/gallery/IMG-20240319-WA0004.png" alt="Philip Ofosu-Appiah, Ceo and writer">
+                    </div>
+                    <div class="user-details">
+                        <h5>Philip Ofosu-Appiah</h3>
+                        <span>CEO</span>
+                        <p>08 <sup>th</sup> May, 2024</p>
+                    </div>
+                </div>
+                <button class="call-to-action">
+                    <h4>Continue Reading</h2>
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="recent-posts">
+        <h2 style="border-bottom: 2px solid lightgreen;width: fit-content;">Recent Posts</h2>
+        <div class="posts">
+            
+            <a href="#" title="Continue reading" class="post-item" data-tabid="Social">
+                <div class="post-image">
+                    <img src="images/oil-palm-plantation (1).jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Why God made Abraham the father of all nations</h3>
+                    <!-- <span>Abraham was a man of unique integrity to God such that, his descendants have been blessed up till date...</span> -->
+                    <p>08 <sup>th</sup> May, 2024</p>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Reflections">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Why God made Abraham the father of all nations</h3>
+                    <!-- <span>Abraham was a man of unique integrity to God such that, his descendants have been blessed up till date...</span> -->
+                    <p>08 <sup>th</sup> May, 2024</p>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Girl-child">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Why God made Abraham the father of all nations</h3>
+                    <!-- <span>Abraham was a man of unique integrity to God such that, his descendants have been blessed up till date...</span> -->
+                    <p>08 <sup>th</sup> May, 2024</p>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Religion">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Why God made Abraham the father of all nations</h3>
+                    <!-- <span>Abraham was a man of unique integrity to God such that, his descendants have been blessed up till date...</span> -->
+                    <p>08 <sup>th</sup> May, 2024</p>
+                </div>
+            </a>
+
+            <a href="#" class="post-item" data-tabid="Social">
+                <div class="post-image">
+                    <img src="images/oil-palm-plantation (1).jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Why God made Abraham the father of all nations</h3>
+                    <!-- <span>Abraham was a man of unique integrity to God such that, his descendants have been blessed up till date...</span> -->
+                    <p>08 <sup>th</sup> May, 2024</p>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Reflections">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Why God made Abraham the father of all nations</h3>
+                    <!-- <span>Abraham was a man of unique integrity to God such that, his descendants have been blessed up till date...</span> -->
+                    <p>08 <sup>th</sup> May, 2024</p>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Girl-child">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Title</h3>
+                    <span>Author</span>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Religion">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Title</h3>
+                    <span>Author</span>
+                </div>
+            </a>
+
+            <a href="#" class="post-item" data-tabid="Social">
+                <div class="post-image">
+                    <img src="images/oil-palm-plantation (1).jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Title</h3>
+                    <span>Author</span>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Reflections">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Title</h3>
+                    <span>Author</span>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Girl-child">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Title</h3>
+                    <span>Author</span>
+                </div>
+            </a>
+            <a href="#" class="post-item" data-tabid="Religion">
+                <div class="post-image">
+                    <img src="images/IMG-20240318-WA0007.jpg" alt="">
+                </div>
+                <div class="post-text">
+                    <h3>Title</h3>
+                    <span>Author</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <div class="pagination">
+        <button class="prev-button">Prev</button>
+        <span class="page-number"></span>
+        <button class="next-button">Next</button>
+    </div>
+    <div class="dev">
+        <h3>We are working on bringing you inspirational blogs, please stay informed</h3>
+    </div>
+    <div class="whatsapp">
+        <a href="https://wa.me/+233544757800"><i class="fa fa-whatsapp" style="color: #fff;"></i> </a>
+    </div>
+     
+    <footer>
+        <div class="icons">
+            <li><a href="https://www.facebook.com/nuamahfarms17?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/farmsnuamah"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/nuamahfarms"><i class="fa fa-instagram"></i></a></li>
+        </div>
+        <hr>
+        <div class="f-logo">
+            <h1  id="title">NuamahFarms</h1>
+            <p>Passion for Organic Farming!</p>
+        </div>
+        <div class="links">
+            <div class="f-cont">
+                <h3>Contact</h3>
+                <p>NuamahFarms Ghana</p>
+                <p><span><i class="fa fa-map-marker"></i></span>Fenou Street, Sakumono</p>
+                <p>Accra, Ghana</p>
+                <p><span><i class="fa fa-envelope"></i></span>nuamahfarm17@hotmail.com</p>
+                <p><span><i class="fa fa-phone"></i></span>+233544757800</p>
+            </div>
+            <ul>
+                <h3>Quick Links</h3>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <ul>
+                <h3>Others</h3>
+                <li><a href="https://www.facebook.com/nuamahfarms17?mibextid=LQQJ4d">Facebook</a></li>
+                <li><a href="https://www.twitter.com/farmsnuamah">X</a></li>
+                <li><a href="https://www.instagram.com/nuamahfarms">Instagram</a></li>
+                <li><a href="https://wa.me/+233544757800">Whatsapp</a></li>
+            </ul>
+        </div>
+        <p style="margin:auto;width: fit-content;">NuamahFarms &copy; Copyright 2024. All right reserved </p>
+    </footer>
+    <script src="lazyload.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            var lazyLoad=new LazyLoad({
+                elements_selector:'.lazy-images'
+            });
+        });
+
+        var tabButtons = document.querySelectorAll('.tab-button');
+        var tabContents = document.querySelectorAll('.post-item');
+        const pageNumber = document.querySelector('.page-number');
+
+        // Initialize pagination
+        var currentPage = 0;
+        var itemsPerPage = 6; // Change this value as needed
+
+        // Show the initial page
+        showPage(currentPage);
+
+        // Function to display items for a specific page
+        function showPage(pageIndex) {
+            var start = pageIndex * itemsPerPage;
+            var end = start + itemsPerPage;
+            // Hide all tab contents
+            tabContents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+            // Show tab contents for the current page
+            for (var i = start; i < Math.min(end, tabContents.length); i++) {
+                tabContents[i].classList.add('active');
+            };
+            updatePageNumbers();
+        };
+
+        function updatePageNumbers() {
+        // Clear existing page numbers
+        pageNumber.innerHTML = '';
+        // Calculate total number of pages
+        var totalPages = Math.ceil(tabContents.length / itemsPerPage);
+        // Create and append page number buttons
+        for (var i = 0; i < totalPages; i++) {
+            var pageNumberButton = document.createElement('button');
+            pageNumberButton.className='pageNumberButton';
+            pageNumberButton.textContent = i + 1;
+            pageNumberButton.addEventListener('click', function() {
+                currentPage = parseInt(this.textContent) - 1;
+                showPage(currentPage);
+            });
+            pageNumber.appendChild(pageNumberButton);
+        };
+    };
+
+        // Function to handle click on previous button
+        document.querySelector('.prev-button').addEventListener('click', function() {
+            currentPage = Math.max(0, currentPage - 1);
+            showPage(currentPage);
+        });
+        
+        // Function to handle click on next button
+        document.querySelector('.next-button').addEventListener('click', function() {
+            currentPage = Math.min(Math.ceil(tabContents.length / itemsPerPage) - 1, currentPage + 1);
+            showPage(currentPage);
+        });
+
+        function openTab(tabid) {
+            // hiding all tabButtons
+            for (var i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove('active');
+            }
+            for (var i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove('active');
+                
+            }
+
+
+            var tabContentsWithId = document.querySelectorAll('.post-item[data-tabid="' + tabid + '"]');
+            for (var i = 0; i < tabContentsWithId.length; i++) {
+                tabContentsWithId[i].classList.add('active');
+            }
+        
+
+
+            // Activate tab buttons with the specified tabid
+            var tabButtonsWithId = document.querySelectorAll('.tab-button[data-tabid="' + tabid + '"]');
+            for (var i = 0; i < tabButtonsWithId.length; i++) {
+                tabButtonsWithId[i].classList.add('active');
+            }
+
+            const heroSection = document.querySelector('.hero').style.display='none';
+            const heroContainer = document.querySelector('.container').style.height='fit-content';
+            const pagination = document.querySelector('.pagination').style.display='none';
+            const unfilter = document.querySelector('#unfilter').innerHTML='Unfilter';
+        };
+        
+        function All() {
+            const filter = document.querySelector('#unfilter').innerHTML='Filter';
+            var tabContentsAll = document.querySelectorAll('.post-item');
+            
+            for (var i = 0; i < tabContentsAll.length; i++) {
+                tabContentsAll[i].classList.add('active');
+            };
+            for (var i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove('active');
+                
+            };
+            const pagination = document.querySelector('.pagination').style.display='block';
+            showPage(currentPage)
+
+        };
+
+        function show() {
+            var tabButtons = document.querySelectorAll('.tab-button');
+            for (var i = 0; i < tabButtons.length; i++) {
+                console.log(tabButtons.length);
+                console.log(tabButtons[i]);
+                tabButtons[i].classList.toggle('tab-show');
+            }
+            // tabButtons.style.display='flex';
+            // const showButton=document.querySelector('.tab-button');
+            // const showOtherButton=document.querySelector('#hide');
+            // showButton.style.display='flex';
+            // showOtherButton.style.display='flex';
+
+        };
+
+    </script>
 </body>
 </html>
