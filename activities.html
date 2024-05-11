@@ -68,7 +68,7 @@
         </div>
         <div class="hero">
             <div class="hero-image">
-                <img src="images/pexels-chanita-sykes-1094544.jpg" alt="intriguing blog stories">
+                <img data-src="images/girl-child-empowerment.jpg" src="images/girl-child-empowerment-up.jpg" alt="girl-child-empowerment" width="400px" class="lozad">
             </div>
             <div class="hero-text">
                 <div class="head">
@@ -79,7 +79,7 @@
                 <br>
                 <div class="post-by">
                     <div class="user-image">
-                        <img src="images/gallery/IMG-20240319-WA0004.png" alt="Philip Ofosu-Appiah, Ceo and writer">
+                        <img src="images/gallery/ceo-of-nuamahfarms.png" alt="Philip Ofosu-Appiah, Ceo and writer">
                     </div>
                     <div class="user-details">
                         <h5>Philip Ofosu-Appiah</h3>
@@ -222,9 +222,9 @@
         <span class="page-number"></span>
         <button class="next-button">Next</button>
     </div>
-    <div class="dev">
+    <!-- <div class="dev">
         <h3>We are working on bringing you inspirational blogs, please stay informed</h3>
-    </div>
+    </div> -->
     <div class="whatsapp">
         <a href="https://wa.me/+233544757800"><i class="fa fa-whatsapp" style="color: #fff;"></i> </a>
     </div>
@@ -266,15 +266,11 @@
         </div>
         <p style="margin:auto;width: fit-content;">NuamahFarms &copy; Copyright 2024. All right reserved </p>
     </footer>
-    <script src="lazyload.min.js"></script>
+    <!-- Include lozad.js -->
+    <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script src="app.js"></script>
+    <script src="loader.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded',()=>{
-            var lazyLoad=new LazyLoad({
-                elements_selector:'.lazy-images'
-            });
-        });
-
         var tabButtons = document.querySelectorAll('.tab-button');
         var tabContents = document.querySelectorAll('.post-item');
         const pageNumber = document.querySelector('.page-number');

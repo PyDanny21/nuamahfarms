@@ -541,7 +541,7 @@ nav a:hover{
 }
 
 .person{
-    width: 300px;
+    width: 350px;
     height: fit-content;
     margin:0 20px;
 }
@@ -562,7 +562,7 @@ nav a:hover{
 }
 
 .person h4, .person span, .person h5{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .whatsapp{
