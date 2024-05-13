@@ -7,6 +7,43 @@
     <title>Inspiration stories from the heart of Nuamah Farms</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="post.css">
+    <meta property="og:title" content="Inspiration stories from the heart of Nuamah Farms">
+    <meta property="og:description" content="girl-child-empowerment">
+    <meta property="og:image" content="https://nuamafarms.com/girl-child-empowerment.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Image Alt Text">
+    <meta property="og:url" content="https://nuamafarms.com/post1.html">
+    <meta property="og:site_name" content="Nuamah Farms">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="a">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:audio" content="https://nuamafarms.com/audio.mp3">
+    <meta property="og:audio:type" content="audio/mpeg">
+    <meta property="og:video" content="https://example.com/video.mp4">
+    <meta property="og:video:secure_url" content="https://nuamahfarms.com/video.mp4">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="1280">
+    <meta property="og:video:height" content="720">
+    <meta property="og:video:tag" content="Tag1">
+    <meta property="og:video:tag" content="Tag2">
+    <meta property="og:video:tag" content="Tag3">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inspiration stories from the heart of Nuamah Farms">
+    <meta name="twitter:description" content="Description of your page content">
+    <meta name="twitter:image" content="https://nuamahfarms/girl-child-empowerment.jpg">
+    <meta name="twitter:image:alt" content="girl-child-empowerment">
+    <meta name="twitter:url" content="https://nuamafarms.com/post1.html">
+    <meta name="twitter:site" content="@farmsnuamah">
+    <meta name="twitter:creator" content="@farmsnuamah">
+    <meta name="twitter:label1" content="Label1">
+    <meta name="twitter:data1" content="Data1">
+    <meta name="twitter:label2" content="Label2">
+    <meta name="twitter:data2" content="Data2">
     <meta name="description" content="Explore the Nuamah Farms blog for insightful articles, recipes, and tips on organic farming, sustainable agriculture, and healthy living. Blog post from the heart of Nuamah Farms to with contents related to social issues, preaching,girl-child-empowerment girl-child education and many more. Stay tuned and enjoy amazing stories from our hub Stay updated with our latest news and insights. Read more!" />
     <link rel="stylesheet" href="store.css">
     <meta name="robots" content="index, follow" />
@@ -61,9 +98,9 @@
         </div>
         <div class="post-view-text">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eveniet voluptatum repellendus dolore corrupti, nisi itaque perspiciatis ducimus iusto modi hic harum dicta tempora, obcaecati, a eos officiis veritatis enim.
-            Dolore, corrupti voluptas dignissimos at fugit quis tenetur placeat. Id, eius consectetur esse enim libero minus officiis molestias consequuntur quibusdam amet! Nisi, fuga? Minus et dolores esse, cupiditate amet facere.
+                Dolore, corrupti voluptas dignissimos at fugit quis tenetur placeat. Id, eius consectetur esse enim libero minus officiis molestias consequuntur quibusdam amet! Nisi, fuga? Minus et dolores esse, cupiditate amet facere.
             Architecto vitae provident nesciunt ratione quaerat ex voluptatem eligendi quod laborum dolor at ab, dolorem omnis voluptate! Assumenda doloremque necessitatibus quis illum distinctio eaque porro eveniet dolor cupiditate! Explicabo, laudantium.
-            </p>
+        </p>
             <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugit quaerat cumque nihil aliquam, quibusdam eveniet voluptatem voluptatibus repellat illum quos ea iure. Quam ipsam tempora praesentium quidem molestiae temporibus.
             </p>
@@ -79,11 +116,11 @@
     </div>
     <div class="share">
         <h3>Share Post</h3>
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-whatsapp"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-    </div>
+        <button onclick="shareFacebook('https://nuamahfarms.com/post1.html','Girl-child Empowerment')"><i class="fa fa-facebook"></i></a>
+        <button onclick="shareWhatsApp('https://nuamahfarms.com/post1.html', 'Girl-Child Empowerment')"><i class="fa fa-whatsapp"></i></a>
+        <button onclick="shareInstagram('https://nuamahfarms.com/girl-child-empowerment.jpg', 'Girl-child Empowerment')"><i class="fa fa-instagram"></i></a>
+        <button onclick="shareTwitter('https://nuamahfarms.com/post1.html', 'Girl-child Empowerment')"><i class="fa fa-twitter"></i></a>        
+        </div>
     <form action="action.php" method="post">
         <h3 style="margin: auto;width: fit-content;">Be sure to leave a comment</h3>
         <div class="email">
@@ -144,5 +181,22 @@
     <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script src="app.js"></script>
     <script src="loader.js"></script>
+    <script>
+        function shareFacebook(url) {
+        window.open(`https://www.facebook.com/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+        }
+
+        function shareTwitter(url, title) {
+        window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`, '_blank');
+        }
+        function shareWhatsApp(url, text) {
+        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text + ' ' + url)}`, '_blank');
+        }
+        function shareInstagram(imageUrl, caption) {
+            window.open(`https://www.instagram.com/create?url=${encodeURIComponent(imageUrl)}&caption=${encodeURIComponent(caption)}`, '_blank');
+        }
+
+
+    </script>
 </body>
 </html>
