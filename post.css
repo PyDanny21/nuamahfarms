@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+
+.post-view{
+    width: 70%;
+    height: fit-content;
+    padding: 30px;
+    margin:auto 10%;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.head h1{
+    font-weight: 900;
+}
+.post-view-image{
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.post-view-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+.post-view-text{
+    width: 90%;
+    font-size: large;
+}
+.share{
+    width: fit-content;
+    height: 80px;
+    display: flex;
+    padding: 10px;
+    background: green;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    border-radius: 10px;
+}
+.share a{
+    text-decoration: none;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share i{
+    font-size: larger;
+}
+.share h3{
+    border-right: 3px solid #fff;
+    height: 100%;
+    display: flex;align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.share a:hover{
+    transform: scale(1.3,1.3);
+}
+
+
+form{
+    width: 60%;
+    height: fit-content;
+    margin:40px auto;
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.email, .comment{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin: 15px;
+}
+
+form label{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    background: green;
+    border-radius: 50%;
+    font-size: x-large;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    position: relative;
+    margin-right:30px;
+}
+
+form input{
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #333;
+    padding: 0 10px;
+    font-size: 18px;
+    background: lightgreen;
+}
+
+.submit{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit input{
+    cursor: pointer;
+    width: 100px;
+    background: green;
+    color: #fff;
+    border-radius: 12px;
+}
+@media(max-width:900px){
+    .post-view{
+        width: 100%;
+        padding: 30px 5px;
+        margin: 0;
+    }
+    .post-view-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 18px;
+    }
+    .head h1 {
+        font-weight: 900;
+        font-size: x-large;
+    }
+    form{
+        width:95%;
+    }
+    form label {
+        margin-right: 7px;
+    }
+    .email, .comment {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        margin:15px 0px;
+    }
+    .share h3 {
+        font-size: small;
+        margin-right: 0px;
+    }
+    .share{
+        padding: 0;
+    }
+    .post-view-text {
+        width: 100%;
+    }
+
+}

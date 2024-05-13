@@ -280,8 +280,8 @@ form button i{
 }
 
 footer{
-    background: rgba(1, 37, 1,0.8);
-    color: #aaa;
+    background: rgb(3, 46, 3);
+    color: #fff;
 
 }
 
@@ -309,9 +309,10 @@ hr{
 .f-cont{
     display: flex;
     flex-direction: column;
+    color: #fff;
 }
 .f-cont p{
-    color: #252525;
+    color: #fff;
 }
 
 #title{
@@ -331,7 +332,7 @@ footer ul li{
     list-style: none;
 }
 footer ul li a{
-    color: #252525;
+    color: #fff;
     text-decoration: none;
 
 }
