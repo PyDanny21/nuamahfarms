@@ -817,13 +817,20 @@ footer ul li a{
         margin:8px 15px;
     }
     .in-hero {
-        width: 80%;
+        width: 90%;
         height: fit-content;
         /* min-height: 70vh; */
         /* background: green; */
         margin: 70px auto;
         display: flex;
         flex-direction: column;
+    }
+    .in-hero-text {
+        flex-basis: 45%;
+        /* margin-left: 15px; */
+    }
+    .in-hero-text h1{
+        font-size: 25px;
     }
 
 

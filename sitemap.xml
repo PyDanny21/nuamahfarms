@@ -20,6 +20,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://www.nuamahfarms.com/post1.html</loc>
+        <lastmod>2024-05-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://www.nuamahfarms.com/store.html</loc>
         <lastmod>2024-05-08</lastmod>
         <changefreq>weekly</changefreq>

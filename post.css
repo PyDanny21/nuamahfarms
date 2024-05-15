@@ -28,6 +28,7 @@
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 30px;
+    margin: auto;
 }
 .post-view-image img{
     width: 100%;
@@ -35,10 +36,20 @@
     object-fit: cover;
     object-position: center top;
 }
-.post-view-text{
-    width: 90%;
+.post-view-text {
+    width: 100%;
     font-size: large;
+    margin: 30px 0;
 }
+
+.post-view-text span{
+    font-weight: 700;
+    font-size: 50px;
+}
+.post-view-text p{
+    line-height: 1.3;
+}
+
 .share{
     width: fit-content;
     height: 80px;
@@ -63,6 +74,7 @@
     justify-content: center;
     background: green;
     outline: none;
+    cursor: pointer;
 }
 .share i{
     font-size: larger;
@@ -171,11 +183,18 @@ form input{
         font-size: small;
         margin-right: 0px;
     }
-    .share{
+    .share {
+        width: 80%;
+        height: 60px;
         padding: 0;
+
     }
+    .share button{
+            height: 35px;
+        }
     .post-view-text {
         width: 100%;
+        margin: 10px 0;
     }
 
 }
