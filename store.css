@@ -156,15 +156,15 @@ nav a:hover{
 }
 
 .store_items{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
     margin-bottom: 30px;
     border-radius: 5px;
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     /* grid-template-columns: repeat(3,4fr); */
     /* align-items: center;
     justify-content: center; */
@@ -362,6 +362,9 @@ footer ul li a{
 @media(max-width:600px){
     .store_item{
         width:300px;
+    }
+    .store_items{
+        flex-wrap:wrap;
     }
 }
 
